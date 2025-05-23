@@ -1,0 +1,130 @@
+body{
+    background-image: url("./Images/background.jpg");
+    background-size: cover;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header h2{
+    font-size: 50px;
+    padding: 5px;
+    color: white;
+    font-family: "Nunito", sans-serif;
+
+    border-radius: 15px;
+}
+
+nav {
+
+    display: flex;
+    height: 20%;
+    flex-direction: row;
+    border-radius: 20px;
+    justify-content: center;
+    font-size: large;
+    margin:30px;
+    text-decoration: none;
+}
+main{
+    margin:20px;
+    gap:10px;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 10px;
+    text-decoration: none;
+}
+
+nav li {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    align-items: center;
+     margin: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+body h1{
+    color: aliceblue;
+    margin-left: 10px;
+}
+main{
+     height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.App-Info{
+
+    padding: 10px;
+    width: 50%;
+    height: 60vh;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    opacity: 70%;
+
+
+}
+h2{
+    text-align: left;
+}
+#feature{
+    margin-top:50px;
+    float: right;
+    margin-bottom: 50px;
+
+}
+.site-footer {
+    clear: both;
+
+    background-color: black;
+    color: white;
+    height: 15vh;
+    text-align: center;
+    opacity: 70%;
+
+  }
+
+
+  .site-footer .footer-links {
+    list-style: none;
+    padding: 10px 0 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .site-footer .footer-links a {
+    color: #ddd;
+    text-decoration: none;
+  }
+
+  .site-footer .footer-links a:hover {
+    text-decoration: underline;
+  }
+#line{
+     margin-top: 50px;
+      background-color: yellowgreen;
+      height:5px;
+    border-radius: 10px;
+      width: 100%;
+  }
+

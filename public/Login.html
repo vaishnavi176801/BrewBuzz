@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./LoginStyle.css" rel="stylesheet">
+    <script type="module" src="../Script/Login.js"></script>
+
+
+</head>
+<body>
+<header>
+        <h2>BrewBuzz</h2>
+        <nav>
+            <ul>
+                <li><a href="./homepage.html">Home</a></li>
+                <li><a href="./SignIn.html">Sign up</a></li>
+
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+    <div class="Login">
+        <form action="">
+        <h2>Login</h2>
+            <div class="info">
+              <label>Email</label>
+                <input type ="email" name ="email" id="email" required>
+              <span class="icon"><ion-icon name="mail"></ion-icon></span>
+
+            </div>
+            <div class="info">
+              <label>Password</label>
+            <input type ="password" name ="password" id="password" required>
+              <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+
+        </div>
+            <div class="remember_forget">
+                <input type="checkbox">
+                <label>Remember me</label>
+
+            </div>
+          <div class="button">
+          <button type="submit" id="LoginButton">Login</button>
+          </div>
+            <div class="register_link">
+              <p><a href="#">Forget Password?</a>
+              Don't have a account?<a href="SignIn.html">Register</a></p>
+            </div>
+        </form>
+    </div>
+      </main>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<footer class="site-footer">
+    <p id="line"></p>
+  <div class="footer-content">
+    <p>&copy; 2025 BrewBuzz All rights reserved.</p>
+    <ul class="footer-links">
+      <li><a href="https://policies.google.com/terms?hl=en-US">Privacy Policy</a></li>
+      <li><a href="https://policies.google.com/terms?hl=en-US">Terms of Service</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,163 @@
+body{
+    background-image: url("../Images/pexels-igor-starkov-233202-1307698 8.21.53 PM.jpg");
+    background-size:cover;
+    margin: 0;
+    height: 100%;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+
+
+
+
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header h2{
+    font-size: 50px;
+    padding: 5px;
+    color: white;
+    font-family: "Nunito", sans-serif;
+
+    border-radius: 15px;
+}
+
+nav {
+
+    display: flex;
+    height: 20%;
+    flex-direction: row;
+    border-radius: 20px;
+    justify-content: center;
+    font-size: large;
+    margin:30px;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 10px;
+    text-decoration: none;
+}
+
+nav li {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    align-items: center;
+     margin: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.site-footer {
+
+    background-color: black;
+    color: white;
+    height: 15vh;
+    text-align: center;
+    opacity: 70%;
+
+  }
+
+
+  .site-footer .footer-links {
+    list-style: none;
+    padding: 10px 0 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .site-footer .footer-links a {
+    color: #ddd;
+    text-decoration: none;
+  }
+
+  .site-footer .footer-links a:hover {
+    text-decoration: underline;
+  }
+#line {
+    margin-top: 50px;
+    background-color: whitesmoke;
+    height: 5px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.dir{
+    color:cadetblue;
+    border:none;
+    background-color:#E2FCEF;
+    font-size: 1.5rem;
+}
+#btn{
+    position: relative;
+
+
+}
+main{
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     width:900px;
+     height:60vh;
+    background-color: whitesmoke;
+     border-radius: 20px;
+}
+
+#cafe_info{
+    width:900px;
+    height:50vh;
+    border-radius: 10px;
+    display: flex;
+}
+
+#cafe_img {
+  background-image: url("https://picsum.photos/seed/picsum/200/300");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 50%;
+  height:100%;
+}
+#cafe_name{
+    width: 50%;
+    height:100%;
+    align-content: center;
+    text-align: center;
+}
+#yes_btn,#no_btn{
+    width:45px;
+    height:50px;
+    padding-top: 5px;
+    margin-top: 5px;
+
+}
+#yes,#no{
+       border: none;
+       margin-left:30px;
+}
+#swipe{
+    display: flex;
+    justify-content: space-between;
+
+}
